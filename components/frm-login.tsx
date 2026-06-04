@@ -22,7 +22,7 @@ export default function FrmLogin() {
             password
         );
 
-        router.push("/(tabs)/explore");
+        router.replace("/conAluno");
         
         setLoading(false)
     }
