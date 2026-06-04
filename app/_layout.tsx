@@ -6,7 +6,7 @@ import 'react-native-reanimated';
 import { useColorScheme } from '@/hooks/use-color-scheme';
 
 export const unstable_settings = {
-  anchor: '(auth)',
+  anchor: '(auth)/index',
 };
 
 export default function RootLayout() {
