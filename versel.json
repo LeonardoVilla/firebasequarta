@@ -1,9 +1,5 @@
 {
-  "rewrites": [
-    { "source": "/_expo/*", "destination": "/_expo/index.html" },
-    { "source": "/*", "destination": "/index.html" }
-  ],
-  "cleanUrls": true,
-  "trailingSlash": false,
-  "outputDirectory": "dist"
+  "buildCommand": "npx expo export -p web",
+  "outputDirectory": "dist",
+  "framework": null
 }
