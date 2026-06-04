@@ -17,16 +17,9 @@ export default function TabLayout() {
         tabBarButton: HapticTab,
       }}>
       <Tabs.Screen
-        name="cad-aluno"
+        name="index"
         options={{
-          title: 'Cadastrar',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="person.badge.plus" color={color} />,
-        }}
-      />
-      <Tabs.Screen
-        name="conAluno"
-        options={{
-          title: 'Consultar',
+          title: 'Login',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="magnifyingglass" color={color} />,
         }}
       />
